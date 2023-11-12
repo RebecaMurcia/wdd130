@@ -20,3 +20,29 @@ img {
 p {
     padding: 10px;
 }
+main {
+    max-width: 84px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #fff2d5;
+    color:black;
+    text-align: center;
+}
+aside img {
+    width:150px;
+    height:auto;
+}
+main img {
+    width:150px;
+    height: auto;
+}
+p {padding: 0;}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #ffd9a8;
+    text-align:center;
+}
