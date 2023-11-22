@@ -36,9 +36,11 @@ p {
     width:100%;
     height:auto;
 }
-.hero h1, article {
-    position: absolute;
+.hero h1, p {
+    position: relative;
+    text-align: 8px;
 }
+
 article img {
     float:right;
 }
