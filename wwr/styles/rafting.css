@@ -2,7 +2,7 @@
 :root {
     --primary-color:#114359;
     --secondary-color:#248FBC;
-    --accent1-color:#9BBFBF;
+    --accent1-color:#b0c5c6;
     --accent2-color:#F9CB08;  
     
     --heading-font: "Oswald", sans-serif;
@@ -41,19 +41,22 @@ header img {
 }
 p {
     padding:25px;
+    color: var( --primary-color);
 }
 .hero img {
     display: block;
     width:100%;
     height:auto;
 }
-.hero h1, p {
+h1, p {
     position: relative;
     text-align: 8px;
 }
 
 article img {
+    position:relative;
     float:right;
+
 }
 article {
 background-color:#9BBFBF;
@@ -72,4 +75,8 @@ nav {
 .navigation a {
     display: block;
 
+}
+.history {
+    margin: 1rem auto;
+    
 }
