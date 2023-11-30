@@ -44,6 +44,11 @@ p {
     padding:25px;
     color: var( --primary-color);
 }
+h1 {
+    font-size: 40px;
+    padding: 5px;
+    text-align: 8px;;
+}
 .hero {
     position: relative;
 }
@@ -52,14 +57,13 @@ p {
     width:100%;
     height:auto;
 }
-h1, p {
+.hero h1, p {
     position: relative;
-    text-align: 8px;
 }
 .hero article img {
     position:relative;
     float:right;
-    width:100px;
+    width:250px;
     height:auto;
 
 }
@@ -95,7 +99,7 @@ nav {
     padding: 10px 30px;
 }
 .history h2 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     padding: 5px; 
 }
