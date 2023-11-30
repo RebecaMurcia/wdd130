@@ -44,6 +44,9 @@ p {
     padding:25px;
     color: var( --primary-color);
 }
+.hero {
+    position: relative;
+}
 .hero img {
     display: block;
     width:100%;
@@ -54,12 +57,16 @@ h1, p {
     text-align: 8px;
 }
 
-article img {
+.hero article img {
     position:relative;
     float:right;
-    width:10px;
+    width:100px;
     height:auto;
 
+}
+article {
+    position: absolute;
+    top:200px;
 }
 nav {
     text-align:right;
