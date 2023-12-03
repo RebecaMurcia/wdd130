@@ -16,6 +16,7 @@ nav {
 }
 nav a {
     color: white;
+    font-weight: bold;
     display: block;
     padding: 0.5rem;
     text-decoration:none;
