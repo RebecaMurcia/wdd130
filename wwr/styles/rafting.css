@@ -57,8 +57,11 @@ h1 {
     width:100%;
     height:auto;
 }
-.hero h1, p {
+.hero p {
     position: relative;
+}
+.hero div h1 {
+    position: absolute;
 }
 .hero article img {
     position:relative;
