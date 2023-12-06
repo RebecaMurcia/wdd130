@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: 1.2em;
+    color:#333;
+    background: #fff;
+}
+header {
+    margin:0 auto;
+    width:650px;
+}
+h1 {
+    margin:2rem;
+    font-size:1.5em;
+    font-weight: bold;
+    color:#1F305E;
+    text-align: center;
+}
+form {
+    width:650px;
+    margin:0 auto;
+    padding:1rem;
+    box-shadow: 0 0 30px gray;
+    border-radius: 0.5rem;
+    background-color: white;
+    display:grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin:1rem;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding:1rem;
+}
+legend {
+    padding:0.5rem;
+    color:#1F305E;
+    font-size: 1.3rem;
+}
+label, input, button, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    padding: 1rem;
+}
+figure {
+    margin:0.5rem;
+    padding: 0.75rem;
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+}
+textarea {
+    font-style: italic;
+}
+button {
+    margin:1rem;
+    background-color: #1F305E;
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size:1.2rem;  
+}
+button:hover {
+    background-color: #808080;
+}
+
+footer {
+    margin:1rem auto 0;
+    width:650px;
+    text-align: center;
+    font-size:1rem;
+    color: #1F305E;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.75rem;
+}
