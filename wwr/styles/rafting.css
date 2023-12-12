@@ -46,7 +46,7 @@ p {
 h1 {
     font-size: 40px;
     padding: 5px;
-    text-align: 8px;;
+    
 }
 .hero {
     position: relative;
@@ -188,7 +188,6 @@ iframe {
 
 form {
     padding-top:.5px;
-    align-items:left;
     line-height:30px;;
 }
 label{
