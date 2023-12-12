@@ -164,7 +164,7 @@ footer img {
 }
 .contact {
     background-color: var(--accent1-color);
-    min-height: 60vh;  
+    min-height: 70vh;  
 }
 .container {
     max-width: 1300px;
