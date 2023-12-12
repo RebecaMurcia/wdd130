@@ -157,7 +157,7 @@ footer img {
     text-align: center;
     padding: 5px;
 }
-.header h1{
+.header{
     text-align: center;
 }
 .contact {
@@ -175,7 +175,7 @@ footer img {
 }
 iframe {
     width:90%;
-    height:350px;
+    height:300px;
 }
 form {
     padding-top:.5px;
@@ -192,10 +192,7 @@ textarea {
     width: 75%;
     height:100px;
 }
-input, textarea, select {
-    border:1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.1rem;
-}
+
 button {
     background-color:var(--nav-background-color);
     color: white;
