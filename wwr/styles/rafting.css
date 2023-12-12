@@ -139,7 +139,6 @@ footer img {
     width:50px;
     height: 50px;   
 }
-
 .team {
     display:flex;
     justify-content: space-between;
@@ -176,22 +175,13 @@ footer img {
     grid-template-columns: 10fr 10fr;
     grid-gap:100px;
 }
-
 iframe {
     width:90%;
     height:250px;
 }
-.info h2, 
-.contact-form h2 {
-    margin-top: 30px;
-}
-
 form {
     padding-top:.5px;
     line-height:30px;;
-}
-label{
-    
     color: var(--primary-color);
 }
 figure {
@@ -215,8 +205,4 @@ button {
     border-radius: 0.1rem;
     padding: 0.75rem;
     font-size:1.2rem;  
-}
-button:hover {
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
 }

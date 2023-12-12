@@ -49,13 +49,15 @@
                     <input type="text" id="name" name="name"><br>
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email" placeholder="example@youremail.com"><br>
-                    <label for="purpose">Purpose of your message</label>
-                    <select id="purpose" name="purpose">
-                        <option value="selected disable">Select One ...</option>
-                        <option value="opt1">General Inquiry</option>
-                        <option value="opt2">Reservation Question</option>
-                        <option value="opt3">Website Suggestion </option>
-                    </select><br>
+                    <legend>Purpose of your message</legend> 
+                    <div>
+                        <input type="radio" id="purpose1" name="purpose1" value="generalInquiry">
+                        <label for="purpose1">General Inquiry</label>
+                        <input type="radio" id="purpose2" name="purpose2" value="reservationQuestion">
+                        <label for="purpose2">Reservation Question<label>
+                        <input type="radio" id="purpose3" name="purpose3" value="websiteSuggestion">
+                        <label for="purpose3">Website Suggestion<label>
+                    </div>
                     <label for="message">Write your message</label>
                     <textarea id="message" name="message" rows="3"></textarea><br>
                     <label for="subscribe">Subscribe to Newsletter</label>
