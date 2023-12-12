@@ -165,7 +165,7 @@ footer img {
 }
 .contact {
     background-color: var(--accent1-color);
-    min-height: 70vh;  
+    min-height: 60vh;  
 }
 .container {
     max-width: 1300px;
@@ -181,6 +181,7 @@ iframe {
     width:90%;
     height:250px;
 }
+
 form {
     padding-top:.5px;
     align-items:left;
@@ -211,4 +212,8 @@ button {
     border-radius: 0.1rem;
     padding: 0.75rem;
     font-size:1.2rem;  
+}
+button:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
 }
