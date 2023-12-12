@@ -162,7 +162,7 @@ footer img {
 }
 .contact {
     background-color: var(--accent1-color);
-    min-height: 70vh;  
+    min-height: 80vh;  
 }
 .container {
     max-width: 1300px;
@@ -175,7 +175,7 @@ footer img {
 }
 iframe {
     width:90%;
-    height:250px;
+    height:350px;
 }
 form {
     padding-top:.5px;
@@ -189,8 +189,8 @@ figure {
     text-align: center;
 }
 textarea {
-    width: 90%;
-    height:150px;
+    width: 75%;
+    height:100px;
 }
 input, textarea, select {
     border:1px solid rgba(0, 0, 0, 0.1);
