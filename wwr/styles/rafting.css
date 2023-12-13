@@ -290,9 +290,10 @@ display:inline-grid;
     padding: 30px;
     font-size: 12pt;
 }
-  
+.newsletter input[type=text] {
+    width:50%;
+    padding: 12px 20px;
+    display:inline-block;
+    border:0px;
 
- 
-
-
-  
+}
