@@ -197,11 +197,32 @@ textarea {
     height:100px;
 }
 
-button {
+.button, button {
     background-color:var(--nav-background-color);
     color: white;
     border:none;
     border-radius: 0.1rem;
     padding: 0.75rem;
     font-size:1.2rem;  
+    text-decoration: none;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card {
+    width:325px;
+    overflow: hidden;
+    box-shadow: 0 0 30px gray;
+    margin: 20px;
+}
+.card img{
+    width:100%;
+    height: auto;
+}
+.card-content {
+    padding:16px;
+    line-height: 1.6;
 }
