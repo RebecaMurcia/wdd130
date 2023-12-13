@@ -260,6 +260,25 @@ table {
     padding: 0rem 2rem;
     background-color: rgba(255, 255, 255, 0.6);
   }
+  .benefit {
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 10px;
+    height: 45vh;
+    padding:4rem; 
+  }
+.gallery img{
+width:70%;
+float:right;
+display:inline-grid;
+}
+.newsletter{
+    background-color: #b0c5c6;
+    text-align: center;
+    padding: 30px;
+    font-size: 12pt;
+}
+  /*
 .benefit .row .col{
     width:50%;
 }  
@@ -280,7 +299,8 @@ table {
 .gallery-col{
     width: 60%;
  
-}
+}*/
+
 
  
 
