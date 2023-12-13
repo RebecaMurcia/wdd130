@@ -201,6 +201,9 @@ textarea {
     font-size:1.2rem;  
     text-decoration: none;
 }
+button:hover {
+    background-color:var(--accent2-color);
+}
 .card-container {
     display: flex;
     justify-content: center;
