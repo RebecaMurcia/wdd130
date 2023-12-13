@@ -260,7 +260,29 @@ table {
     padding: 0rem 2rem;
     background-color: rgba(255, 255, 255, 0.6);
   }
+.benefit .row .col{
+    width:50%;
+}  
+.benefit .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    align-items:center;
+}
+.gallery img{
+    max-width:300px;
+    margin:10px;
 
-  
+}
+.content-col{
+    width:40%;
+}
+.gallery-col{
+    width: 60%;
+ 
+}
+
+ 
+
 
   
