@@ -37,7 +37,7 @@ header {
 }
 header img {
     display:block;
-    width: 90%;
+    width: 70%;
     height:auto;
 }
 
@@ -46,7 +46,6 @@ p {
 h1 {
     font-size: 40px;
     padding: 5px;
-    text-align: center;
 }
 .hero {
     position: relative;
@@ -61,7 +60,7 @@ h1 {
     font-size: 13pt;
     line-height: 1.6;
 }
-.hero div h1 {
+.hero div {
     position: absolute;
 }
 .hero article img {
@@ -81,22 +80,21 @@ article {
     width: 75%;
     padding: 40px; 
 }
-nav {
+/*nav {
     text-align:right;
     font-weight: 700;
     
-}
+}*/
 .navigation {
     display: flex;
     list-style: none;
+    text-align:left;
+    font-size:15pt;
 }
 .navigation li {
     flex: 1rem;
 }
-.navigation a {
-    display: block;
 
-}
 .history {
     margin: 1rem auto;
     background-color: var(--accent1-color);
@@ -160,9 +158,7 @@ footer img {
     text-align: center;
     padding: 5px;
 }
-/*.header{
-    text-align: center;
-}*/
+
 .contact {
     background-color: var(--accent1-color);
     min-height: 80vh;  
@@ -242,4 +238,12 @@ table {
   tr:nth-child(even) {
     background-color: var(--accent1-color);
   }
-  
+  .river h1 {
+    text-align: center;
+  }
+  .home {
+    background: url(../images/image5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+  }
