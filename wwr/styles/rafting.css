@@ -46,7 +46,7 @@ p {
 h1 {
     font-size: 40px;
     padding: 5px;
-    
+    text-align: center;
 }
 .hero {
     position: relative;
@@ -160,9 +160,9 @@ footer img {
     text-align: center;
     padding: 5px;
 }
-.header{
+/*.header{
     text-align: center;
-}
+}*/
 .contact {
     background-color: var(--accent1-color);
     min-height: 80vh;  
