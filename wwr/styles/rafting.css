@@ -226,3 +226,20 @@ textarea {
     padding:16px;
     line-height: 1.6;
 }
+table {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border-top: 1px solid var(--accent1-color);
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--accent1-color);
+  }
+  
