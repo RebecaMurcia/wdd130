@@ -58,6 +58,9 @@ h1 {
 }
 .hero p {
     position: relative;
+    font-size: 13pt;
+    line-height: 1.6;
+    font-weight: 100px;;
 }
 .hero div h1 {
     position: absolute;
@@ -65,20 +68,19 @@ h1 {
 .hero article img {
     position:relative;
     float:right;
-    width:250px;
+    width:350px;
     height:auto;
 
 }
 article {
     position: absolute;
     top:200px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     left: 0;
     right: 0;
     margin: 0 auto;
     width: 75%;
-    padding: 20px; 
-    font-weight: bold;
+    padding: 40px; 
 }
 nav {
     text-align:right;
@@ -100,6 +102,7 @@ nav {
     margin: 1rem auto;
     background-color: var(--accent1-color);
     padding: 10px 30px;
+    line-height: 1.6;
 }
 .history h2 {
     font-size: 40px;
